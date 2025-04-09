@@ -18,7 +18,8 @@ func main() {
 	// examples.SetExample(client, &ctx)
 	// messaging.MessagingExample(client, &ctx)
 	// messaging.ListPubSubExample(client, &ctx)
-	messaging.PubSubExample()
+	// messaging.PubSubExample()
+	messaging.New().StreamsExample()
 
 	// challenges.StringHashChallenge(*client, &ctx)
 
