@@ -1,7 +1,7 @@
 package main
 
 import (
-	"caching/examples/messaging"
+	"caching/examples/core_features"
 	"caching/internal/routes"
 )
 
@@ -19,7 +19,8 @@ func main() {
 	// messaging.MessagingExample(client, &ctx)
 	// messaging.ListPubSubExample(client, &ctx)
 	// messaging.PubSubExample()
-	messaging.New().StreamsExample()
+	// messaging.New().StreamsExample()
+	core_features.PipelineExample()
 
 	// challenges.StringHashChallenge(*client, &ctx)
 
